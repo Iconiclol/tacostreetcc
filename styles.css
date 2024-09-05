@@ -4,29 +4,36 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0; /* Optional: background color */
+    background-color: #f0f0f0; 
 }
 
 .content-wrapper {
     text-align: center;
+ 
 }
 
 .center-text {
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
-    margin-bottom: 20px; /* Adds space between text and button */
+    margin-bottom: 20px; 
 }
 
 .blue {
-    color: #0000FF; /* Blue color */
+   color: #24C2F2;
+   text-shadow: 0 0 0px rgba(36, 194, 242, 0.8), 
+                 0 0 50px rgba(36, 194, 242, 0.6), 
+                  0 0 55px rgba(36, 194, 242, 0.6)
 }
 
 .orange {
-    color: #FFA500; /* Orange color */
-}
+    color: #F29C24;
+    text-shadow: 0 0 0px rgba(242, 156, 36, 0.8), 
+                 0 0 50px rgba(242, 156, 36, 0.6), 
+                 0 0 50px rgba(242, 156, 36, 0.4); 
 
+}
 .center-button {
-    margin-top: 20px; /* Adds space between text and button */
+    margin-top: 20px; 
 }
 
 .connect-button {
@@ -34,7 +41,7 @@ body {
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
-    background-color: #0000FF;
+    background-color: #24C2F2;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -45,7 +52,7 @@ body {
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
-    background-color: #FFA500;
+    background-color: #F29C24;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
