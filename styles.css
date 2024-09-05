@@ -34,12 +34,27 @@ body {
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
-    background-color: #007BFF;
+    background-color: #0000FF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #FFA500;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .connect-button:hover {
+    background-color: #0056b3;
+}
+
+.shop-button:hover {
     background-color: #0056b3;
 }
