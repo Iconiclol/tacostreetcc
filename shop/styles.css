@@ -50,3 +50,13 @@
         transform: translateY(-40px); /* Move up 20px */
     }
 }
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px); /* Move up slightly while fading out */
+    }
+}
