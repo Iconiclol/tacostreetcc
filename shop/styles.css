@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.content-wrapper {
+    text-align: center;
+ 
+}
+
+.center-text {
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.blue {
+   color: #24C2F2;
+   text-shadow: 0 0 0px rgba(36, 194, 242, 0.8), 
+                 0 0 50px rgba(36, 194, 242, 0.6), 
+                  0 0 55px rgba(36, 194, 242, 0.6)
+}
+
+.orange {
+    color: #F29C24;
+    text-shadow: 0 0 0px rgba(242, 156, 36, 0.8), 
+                 0 0 50px rgba(242, 156, 36, 0.6), 
+                 0 0 50px rgba(242, 156, 36, 0.4); 
+
+}
+.center-button {
+    margin-top: 20px; 
+}
+
+.connect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #24C2F2;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 1px rgba(36, 194, 242, 0.8), 
+                 0 0 20px rgba(36, 194, 242, 0.6), 
+                  0 0 25px rgba(36, 194, 242, 0.6)
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #F29C24;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 1px rgba(242, 156, 36, 0.8), 
+                 0 0 20px rgba(242, 156, 36, 0.6), 
+                 0 0 25px rgba(242, 156, 36, 0.4); 
+
