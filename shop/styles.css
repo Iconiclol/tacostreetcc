@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
     font-size: 50px; /* Adjust size as needed */
     animation: floatUpDown 1s ease-in-out infinite; /* Animation for floating */
 }
