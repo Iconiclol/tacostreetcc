@@ -1,24 +1,42 @@
-/* Intro section styling */
-.intro {
+.floating-ts {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #f0f0f0; /* Optional background color */
+    font-size: 100px; /* Adjust size as needed */
+    animation: floatUpDown 3s ease-in-out infinite; /* Animation for floating */
 }
 
-/* Image animation */
-.animated-image {
-    width: 300px; /* Adjust size as needed */
-    animation: moveUpDown 3s ease-in-out infinite; /* 3s smooth animation */
+.letter-t {
+    color: #24C2F2; /* Cyan color */
+    text-shadow: 
+        0 0 50px rgba(36, 194, 242, 0.1), 
+        0 0 50px rgba(36, 194, 242, 1.6), 
+        0 0 50px rgba(36, 194, 242, 2.6),
+        0 0 50px rgba(36, 194, 242, 3.6);/* Increased blur radius for more spread */
 }
 
-/* Keyframes for moving up and down */
-@keyframes moveUpDown {
+.letter-s {
+    color: #F29C24; /* Orange color */
+    text-shadow: 
+        0 0 50px rgba(242, 156, 36, 0.1), 
+        0 0 50px rgba(242, 156, 36, 0.2), 
+        0 0 50px rgba(242, 156, 36, 0.3),
+        0 0 50px rgba(242, 156, 36, 0.4),
+        0 0 50px rgba(242, 156, 36, 0.5),
+        0 0 50px rgba(242, 156, 36, 0.6),
+        0 0 50px rgba(242, 156, 36, 0.7),
+        0 0 50px rgba(242, 156, 36, 0.8),
+        0 0 50px rgba(242, 156, 36, 0.9),
+        0 0 50px rgba(242, 156, 36, 1.0);/* Increased blur radius for more spread */
+}
+
+/* Keyframes for floating animation */
+@keyframes floatUpDown {
     0%, 100% {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px); /* Move up 20px */
+        transform: translateY(-40px); /* Move up 20px */
     }
 }
